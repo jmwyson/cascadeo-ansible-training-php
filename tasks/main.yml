@@ -1,2 +1,14 @@
 ---
 # tasks file for php
+- name: install php and php packages
+  yum:
+    name: {{ item }}
+    state: latest
+  with_items:
+    - php 
+    - php-mysql 
+    - php-xmlrpc 
+    - php-curl 
+    - php-mcrypt 
+    - php-gd 
+    - php-pear
