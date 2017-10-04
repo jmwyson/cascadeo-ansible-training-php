@@ -7,7 +7,7 @@
 
 - name: install php and php packages
   yum:
-    name: {{ item }}
+    name: "{{ item }}"
     state: latest
   with_items:
     - php 
