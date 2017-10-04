@@ -1,5 +1,10 @@
 ---
 # tasks file for php
+- name: install epel-release
+  yum:
+    name: epel-release
+    state: latest
+
 - name: install php and php packages
   yum:
     name: {{ item }}
