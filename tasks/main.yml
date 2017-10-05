@@ -17,3 +17,5 @@
     - php-mcrypt 
     - php-gd 
     - php-pear
+  notify:
+    - restart apache

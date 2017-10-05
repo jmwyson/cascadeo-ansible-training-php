@@ -6,7 +6,7 @@ Install PHP and common PHP libraries used for wordpress
 Requirements
 ------------
 
-Tested to work with apache.
+Apache must be installed. Has built in handler to restart apache.
 
 Role Variables
 --------------
